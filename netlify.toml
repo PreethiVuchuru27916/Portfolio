@@ -1,8 +1,0 @@
-[build]
-  publish = "/Users/PreethiVuchuru/Documents/Learn/projects/Angular/tech-journey/pree-portfolio/dist/pree-portfolio/browser"
-  command = "ng build --prod"
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
