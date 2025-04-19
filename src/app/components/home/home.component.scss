@@ -1,0 +1,29 @@
+$secondary-color: #3b312b;
+
+.home-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .picture-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        width: 200px; 
+        height: 200px;
+        overflow: hidden;
+        border: 5px solid $secondary-color;
+        border-radius: 50%;
+        background-color: white;
+    
+        .picture {
+            width: inherit;
+            height: inherit;
+            margin-top: 15%;
+        }
+    }
+}    
+
+
