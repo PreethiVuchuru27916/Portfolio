@@ -5,6 +5,7 @@
 
 $primary-color: #ece7e0;
 $secondary-color: #3b312b;
+$teritary-color: #8f7c70;
 
 body { 
     margin: 0px;
@@ -13,13 +14,19 @@ body {
     font-size: 18px;
     color: $secondary-color;
     background-color: $primary-color;
-    font-family: Canva Sans, Noto Sans Variable, Noto Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+}
+
+.badge-secondary {
+    color: white;
+    background-color: $secondary-color;
+}
+
+.badge-tertiary {
+    color: black;
+    background-color: $teritary-color;
 }
 
 .list-item {
-    // font-size: 20px;
-    // font-weight: 400;
-    // margin-top: 20px;
     width: 100%;
     border: 3px solid $secondary-color;
     border-radius: 15px;
