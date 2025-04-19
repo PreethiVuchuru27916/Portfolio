@@ -7,11 +7,15 @@ $primary-color: #ece7e0;
 $secondary-color: #3b312b;
 $teritary-color: #8f7c70;
 
+html, body {
+    height: 100vh;
+    width: 100vw;
+}
+
 body { 
     margin: 0px;
-    padding-left: 30%;
-    padding-right: 30%;
     font-size: 18px;
+    overflow: hidden;
     color: $secondary-color;
     background-color: $primary-color;
 }
